@@ -1,0 +1,122 @@
+.vidhya{
+	color: #f49880;
+}
+.learn{
+	color: #01bfbf;
+}
+.container-custom{
+	padding-top: 18px;
+}
+.hero-section{
+	background-color: #f59f8a;
+	padding: 50px 0;
+}
+.hero-heading{
+    font-size: 80px;
+}
+.img-fluid{
+	border-radius: 10px;
+}
+.about-section{
+	padding: 30px 0;
+}
+.about-students-section{
+	background-color: #f0f5f5;
+	padding: 50px 0;
+}
+.courses{
+	background-color:#01e4e4;
+	padding:40px 20px;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
+.course{
+	margin-right: 20px;
+	width: 18rem;
+	display: inline-block;
+	background-color: white;
+	box-sizing: border-box;
+}
+.tech-courses::-webkit-scrollbar,.general-courses::-webkit-scrollbar,.courses::-webkit-scrollbar{
+    width: 0;
+}
+.img-thumbnail{
+	border:none;
+}
+.course img{
+	width: 300px;
+	height: 200px;
+}
+.course-body{
+	padding:10px 0 10px 10px;
+}
+.address{
+	padding: 30px 20px;
+}
+.address a{
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding-top: 20px;
+}
+.address span{
+	padding-left: 10px;
+	font-size: 20px;
+}
+.footer-custom{
+	padding-top: 20px;
+}
+.footer-link{
+	text-decoration: none;
+	color: white;
+	padding-right: 10px;
+	padding-top: 50px;
+}
+.footer-link:hover,.col-md-3 ul li a:hover{
+	color: #f49880;
+}
+.col-md-3 ul{
+	list-style: none;
+}
+.col-md-3 ul li a{
+	text-decoration: none;
+	color: white;
+}
+.col-md-3 ul li{
+	font-weight: 50px;
+}
+
+@media(max-width: 900px){
+	.hero-heading{
+		font-size: 50px;
+	}
+}
+@media(max-width: 768px){
+	.col-md-5{
+		margin-bottom: 50px;
+	}
+}
+/* Contact us page css*/
+.jumbotron{
+	background-color:#f59f8a;
+	padding: 70px 0;
+}
+.map{
+	padding: 30px 0;
+}
+.map iframe{
+	width: 100%;
+}
+/* About us page starts here */
+.services{
+	padding: 40px 20px;
+}
+.form-check{
+	font-size: 20px;
+}
+/* courses starts here */
+.tech-courses,.general-courses{
+	padding:40px 20px;
+	overflow-x: scroll;
+	white-space: nowrap;
+}
